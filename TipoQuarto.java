@@ -1,6 +1,6 @@
 public enum TipoQuarto {
     LUXO("Luxo", 400.0),
-    PADRAO("Padrão", 200.0);
+    STANDARD("Standard", 200.0);
 
     private final String nome;
     private final double valorDiaria;
