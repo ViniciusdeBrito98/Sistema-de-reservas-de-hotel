@@ -39,7 +39,7 @@ public class Main {
                 case 2:
                     System.out.print("Número do quarto: ");
                     int num = sc.nextInt();
-                    System.out.print("Tipo (LUXO ou PADRAO): ");
+                    System.out.print("Tipo (LUXO ou STANDARD): ");
                     String tipo = sc.next().toUpperCase();
                     hotel.cadastrarQuarto(num, TipoQuarto.valueOf(tipo));
                     break;
